@@ -1,0 +1,236 @@
+.aboutus-page {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #fafafa;
+    color: #222;
+  }
+  
+  /* Hero Section */
+  .aboutus-hero {
+    background: #fff;
+    padding: 60px 0 40px 0;
+    text-align: center;
+  }
+  .aboutus-hero-title-group {
+    margin-bottom: 32px;
+  }
+  .aboutus-hero-subtitle {
+    color: #444;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+  .aboutus-hero-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  .aboutus-hero-underline {
+    width: 60px;
+    height: 3px;
+    background: #1a73e8;
+    margin: 0 auto 16px auto;
+  }
+  .aboutus-hero-services {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+  }
+  .aboutus-hero-services > div {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .aboutus-service-btn {
+    background: #f5f5f5;
+    color: #e67c2f;
+    border: none;
+    padding: 10px 28px;
+    font-size: 1rem;
+    border-radius: 3px;
+    margin: 0 0 8px 0;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .aboutus-service-btn:hover {
+    background: #ffe5d0;
+  }
+  
+  /* Quote Section */
+  .aboutus-quote-section {
+    background: #f4f4f4;
+    padding: 60px 0 40px 0;
+    text-align: center;
+    position: relative;
+  }
+  .aboutus-quote-bg {
+    background: url('data:image/svg+xml;utf8,<svg width=\"100%\" height=\"100\" viewBox=\"0 0 1440 100\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 0h1440v100H0V0z\" fill=\"none\"/><path d=\"M0 50c60 0 60 50 120 50s60-50 120-50 60 50 120 50 60-50 120-50 60 50 120 50 60-50 120-50 60 50 120 50 60-50 120-50 60 50 120 50 60-50 120-50 60 50 120 50 60-50 120-50v100H0V50z\" fill=\"%23eaeaea\"/></svg>');
+    background-repeat: repeat-x;
+    padding: 40px 0;
+  }
+  .aboutus-quote-text h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 32px;
+  }
+  .aboutus-cta-btn {
+    background: #e67c2f;
+    color: #fff;
+    border: none;
+    padding: 16px 40px;
+    font-size: 1.1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.2s;
+  }
+  .aboutus-cta-btn:hover {
+    background: #c95f0b;
+  }
+  
+  /* Mission & Vision */
+  .aboutus-mission-vision-section {
+    background: #f4f4f4;
+    padding: 40px 0 20px 0;
+  }
+  .aboutus-mission-vision-row {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .aboutus-mission, .aboutus-vision {
+    flex: 1 1 300px;
+    background: none;
+  }
+  .aboutus-mission h3, .aboutus-vision h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Promise Section */
+  .aboutus-promise-section {
+    background: #f4f4f4;
+    padding: 40px 0 40px 0;
+  }
+  .aboutus-promise-row {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+  }
+  .aboutus-promise-img {
+    width: 45%;
+    min-width: 320px;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+  .aboutus-promise-content {
+    flex: 1;
+  }
+  .aboutus-promise-content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .aboutus-promise-underline {
+    width: 60px;
+    height: 3px;
+    background: #1a73e8;
+    margin: 0 0 18px 0;
+  }
+  .aboutus-promise-content ul {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 1.1rem;
+  }
+  .aboutus-promise-content li {
+    margin-bottom: 10px;
+  }
+  
+  /* About Section */
+  .aboutus-about-section {
+    background: #fff;
+    padding: 60px 0 40px 0;
+  }
+  .aboutus-about-row {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+  }
+  .aboutus-about-text {
+    flex: 1;
+  }
+  .aboutus-about-subtitle {
+    color: #444;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+  .aboutus-about-underline {
+    width: 60px;
+    height: 3px;
+    background: #1a73e8;
+    margin: 0 0 18px 0;
+  }
+  .aboutus-about-img {
+    width: 400px;
+    max-width: 100%;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+  
+  /* Awards Section */
+  .aboutus-awards-section {
+    background: #f4f4f4;
+    padding: 40px 0 40px 0;
+  }
+  .aboutus-awards-row {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+  }
+  .aboutus-awards-text {
+    flex: 1;
+    min-width: 180px;
+  }
+  .aboutus-award-img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    margin-right: 10px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 1000px) {
+    .aboutus-promise-row,
+    .aboutus-about-row,
+    .aboutus-awards-row,
+    .aboutus-mission-vision-row {
+      flex-direction: column;
+      gap: 30px;
+      align-items: flex-start;
+    }
+    .aboutus-promise-img,
+    .aboutus-about-img {
+      width: 100%;
+      min-width: 0;
+    }
+  }
+
+  .aboutus-main-content {
+    padding-bottom: 40px;
+  }
+
+  .whats-included-footer {
+    margin-top: 40px;
+  }

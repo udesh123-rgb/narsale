@@ -1,0 +1,227 @@
+/* Hero Section */
+.home-hero {
+    background: linear-gradient(rgba(10, 40, 60, 0.7), rgba(10, 40, 60, 0.7)), url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80') ;
+    color: #fff;
+  padding: 3rem 2 rem 0;
+  position: relative;
+}
+
+.hero-overlay {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 1rem 3rem 1rem;
+}
+.hero-overlay h2 {
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  color: #b8e0f7;
+}
+.hero-overlay h1 {
+  font-size: 2.7rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  line-height: 1.2;
+}
+
+.features-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+}
+.feature-col {
+  background: rgba(255,255,255,0.07);
+  border-radius: 10px;
+  padding: 2rem 1.5rem;
+  min-width: 260px;
+  max-width: 320px;
+  flex: 1 1 260px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  margin-bottom: 1rem;
+}
+.feature-col h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+.feature-underline {
+  width: 40px;
+  height: 3px;
+  background: #ff7300;
+  margin: 0.5rem 0 1rem 0;
+  border-radius: 2px;
+}
+.feature-logo {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: #ff7300;
+  font-weight: bold;
+}
+.feature-logo-row {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+  color: #b8e0f7;
+  font-size: 1rem;
+}
+.feature-col ul {
+  text-align: left;
+  margin: 0.5rem 0 0 1.2rem;
+  color: #fff;
+}
+
+/* Clients Section */
+.clients-section {
+  background: #fff;
+  color: #222;
+  padding: 2.5rem 0 1.5rem 0;
+  text-align: center;
+}
+.clients-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.client-logos {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+.client-logo {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #036a9c;
+  background: #f0f8ff;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* Who We Serve Section */
+.who-we-serve-section {
+  background: #fff;
+  color: #222;
+  text-align: center;
+  padding: 3rem 1rem 2rem 1rem;
+}
+.who-we-serve-section h3 {
+  color: #888;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+.who-we-serve-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.who-we-serve-section p {
+  color: #444;
+  margin-bottom: 2.5rem;
+}
+.serve-cards-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.serve-card {
+  background: #036a9c;
+  color: #fff;
+  border-radius: 10px;
+  padding: 2rem 1.5rem;
+  min-width: 260px;
+  max-width: 320px;
+  flex: 1 1 260px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  margin-bottom: 1rem;
+  text-align: left;
+  position: relative;
+}
+.serve-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.serve-card button {
+  margin-top: 1.5rem;
+  background: #fff;
+  color: #ff7300;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s, color 0.2s;
+}
+.serve-card button:hover {
+  background: #ff7300;
+  color: #fff;
+}
+
+/* Info Section */
+.info-section {
+  display: flex;
+  flex-wrap: wrap;
+  background: #f7fafd;
+  padding: 3rem 0;
+  align-items: center;
+  justify-content: center;
+}
+.info-img {
+  min-width: 320px;
+  min-height: 260px;
+  background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80') center/cover no-repeat;
+  border-radius: 10px;
+  flex: 1 1 320px;
+  margin: 1rem 2rem;
+}
+.info-content {
+  flex: 2 1 400px;
+  margin: 1rem 2rem;
+}
+
+.info-content h4 {
+  color: #036a9c;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.info-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.info-content p {
+  color: #444;
+  margin-bottom: 1rem;
+}
+.info-content-text{
+  margin-top: 2rem;
+}
+.cta-btn {
+  background: #ff7300;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.2s;
+}
+.cta-btn:hover {
+  background: #e65c00;
+}
+
+@media (max-width: 900px) {
+  .features-row, .serve-cards-row, .info-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature-col, .serve-card, .info-img, .info-content {
+    max-width: 95vw;
+  }
+} 

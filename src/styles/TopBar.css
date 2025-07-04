@@ -1,0 +1,29 @@
+.top-bar {
+    background: #036a9c;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem 2rem;
+    font-size: 0.95rem;
+  }
+  .top-bar-left > * {
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  .top-bar-right {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+  }
+  .roi-btn {
+    background: #5fd0ff;
+    color: #036a9c;
+    padding: 0.4rem 1.2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }

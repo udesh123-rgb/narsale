@@ -1,0 +1,226 @@
+.whats-included-bg {
+    background: #f4f4f4;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  .whats-included-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  
+  .whats-included-flex {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .whats-included-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+    padding: 40px 32px;
+    flex: 1 1 400px;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .whats-included-card .icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+  
+  .whats-included-card .type {
+    color: #ff6600;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
+  
+  .whats-included-card h2 {
+    margin: 8px 0 16px;
+    font-size: 2rem;
+  }
+  
+  .whats-included-card p {
+    color: #444;
+    margin-bottom: 24px;
+  }
+  
+  .whats-included-card button {
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 28px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .whats-included-card button:hover {
+    background: #e65c00;
+  }
+  
+  .whats-included-blue-section {
+    background: #fff;
+    padding: 60px 0 40px;
+  }
+  
+  .whats-included-blue-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .whats-included-blue-header .subtitle {
+    color: #666;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .whats-included-blue-header h1 {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  .whats-included-blue-header .underline {
+    width: 120px;
+    height: 3px;
+    background: #1a8cff;
+    margin: 24px auto 0;
+    border-radius: 2px;
+  }
+  
+  .whats-included-blue-card {
+    background: #0074a6;
+    border-radius: 8px;
+    color: #fff;
+    padding: 32px 28px;
+    flex: 1 1 300px;
+    max-width: 400px;
+    min-width: 260px;
+    text-align: left;
+    position: relative;
+    margin-bottom: 24px;
+  }
+  
+  .whats-included-blue-card h2 {
+    color: #fff;
+    margin: 16px 0 12px;
+  }
+  
+  .whats-included-blue-card p {
+    color: #fff;
+    margin-bottom: 24px;
+  }
+  
+  .whats-included-blue-card button {
+    background: #fff;
+    color: #ff6600;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 28px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+  }
+  
+  .whats-included-blue-card button:hover {
+    background: #ff6600;
+    color: #fff;
+  }
+  
+  .whats-included-faas-section {
+    background: #fff;
+    padding: 60px 0 0;
+    margin-top: 40px;
+  }
+  
+  .whats-included-faas-content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .whats-included-faas-content .faas-text {
+    flex: 1;
+    padding: 0 40px;
+  }
+  
+  .whats-included-faas-content .faas-title {
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.1;
+  }
+  
+  .whats-included-faas-content .faas-img {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .whats-included-faas-content .faas-img img {
+    width: 80%;
+    border-radius: 8px;
+  }
+  
+  .whats-included-clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+  }
+  
+  .whats-included-clients img {
+    margin: 0 32px;
+    height: 40px;
+    object-fit: contain;
+  }
+  
+  .whats-included-footer {
+    background: #333;
+    color: #fff;
+    padding: 48px 0 32px;
+  }
+  
+  .whats-included-footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .whats-included-footer-content > div {
+    flex: 1;
+    min-width: 220px;
+    margin-right: 40px;
+  }
+  
+  .whats-included-footer-content h4 {
+    color: #1a8cff;
+  }
+  
+  .whats-included-footer-content ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  @media (max-width: 900px) {
+    .whats-included-flex,
+    .whats-included-footer-content,
+    .whats-included-faas-content {
+      flex-direction: column;
+      align-items: center;
+    }
+    .whats-included-footer-content > div {
+      margin-right: 0;
+      margin-bottom: 32px;
+    }
+  }

@@ -1,0 +1,129 @@
+.who-we-help-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #fff;
+    min-height: 60vh;
+  }
+  
+  .who-we-help-content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+    padding: 40px 0;
+  }
+  
+  .who-we-help-section {
+    flex: 2;
+    padding-right: 40px;
+    border-right: 1px solid #eee;
+  }
+  
+  .who-we-help-section h3 {
+    font-size: 1.3rem;
+    margin-bottom: 16px;
+    color: #222;
+  }
+  
+  .who-we-help-section p {
+    color: #444;
+    margin-bottom: 18px;
+  }
+  
+  .who-we-help-section a {
+    color: #1a8cff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .by-role, .by-industry {
+    flex: 1;
+    padding: 0 40px;
+    border-right: 1px solid #eee;
+  }
+  
+  .by-industry {
+    border-right: none;
+    padding-left: 40px;
+  }
+  
+  .by-role h4, .by-industry h4 {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    color: #222;
+  }
+  
+  .by-role a, .by-industry a {
+    display: block;
+    color: #1a8cff;
+    margin-bottom: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  
+  .by-role a:hover, .by-industry a:hover, .who-we-help-section a:hover {
+    color: #ff6600;
+  }
+
+  .whats-included-footer {
+    background: #373737;
+    color: #fff;
+    padding: 40px 0 20px 0;
+    font-family: inherit;
+    margin-top: 40px;
+  }
+
+  .whats-included-footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .whats-included-footer-content > div {
+    flex: 1 1 220px;
+    margin: 0 20px;
+    min-width: 220px;
+  }
+
+  .whats-included-footer-content h4 {
+    color: #1a73e8;
+    margin-bottom: 16px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+
+  .whats-included-footer-content ul {
+    list-style: disc inside;
+    padding-left: 0;
+    margin: 0 0 10px 0;
+  }
+
+  .whats-included-footer-content li {
+    margin-bottom: 8px;
+    font-size: 1rem;
+  }
+
+  .whats-included-footer-content div {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  @media (max-width: 900px) {
+    .whats-included-footer-content {
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 30px;
+    }
+    .whats-included-footer-content > div {
+      margin-bottom: 30px;
+    }
+  }
+  
